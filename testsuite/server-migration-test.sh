@@ -6,7 +6,7 @@ DIRNAME=`dirname "$0"`
 TEST_DIR=`cd "$DIRNAME"; pwd`
 TEST_BEFORE_DIR=$TEST_DIR/before/dist
 TEST_AFTER_DIR=$TEST_DIR/after
-TOOL_DIR="$TEST_DIR/jboss-server-migration"
+TOOL_DIR="$TEST_DIR/jboss-eap-server-migration"
 SOURCE_DIST_DIR="$1"
 TARGET_SRC_DIR="$2"
 
@@ -53,7 +53,7 @@ echo "### Target Server dist directory: $TARGET_DIST_DIR"
 
 echo "### Preparing JBoss Server Migration Tool binary..."
 rm -Rf $TOOL_DIR
-unzip $TEST_DIR/../build/target/jboss-server-migration-*.zip -d $TEST_DIR
+unzip $TEST_DIR/../build/target/jboss-eap-server-migration-*.zip -d $TEST_DIR
 
 SOURCE_DIST_CMTOOL_DIR=$SOURCE_DIST_DIR/cmtool
 SOURCE_DIST_CMTOOL_MODULES_DIR=$SOURCE_DIST_DIR/modules/system/layers/base/cmtool

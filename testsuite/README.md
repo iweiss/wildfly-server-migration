@@ -1,4 +1,4 @@
-JBoss Server Migration Tool Testsuite
+JBoss EAP Server Migration Tool Testsuite
 ==========================================
 
 The resources to test the server migration tool distribution.

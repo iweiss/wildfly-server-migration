@@ -22,18 +22,18 @@
 
     <parent>
         <groupId>org.jboss.migration</groupId>
-        <artifactId>jboss-server-migration-parent</artifactId>
+        <artifactId>jboss-eap-server-migration-parent</artifactId>
         <version>7.0.6-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jboss-server-migration-wildfly10.0</artifactId>
+    <artifactId>jboss-eap-server-migration-wildfly10.0</artifactId>
 
-    <name>JBoss Server Migration: WildFly 10.0</name>
+    <name>JBoss EAP Server Migration: WildFly 10.0</name>
 
     <dependencies>   
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>jboss-server-migration-core</artifactId>
+            <artifactId>jboss-eap-server-migration-core</artifactId>
         </dependency>
     </dependencies>   
 

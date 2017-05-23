@@ -22,18 +22,18 @@
 
     <parent>
         <groupId>org.jboss.migration</groupId>
-        <artifactId>jboss-server-migration-parent</artifactId>
+        <artifactId>jboss-eap-server-migration-parent</artifactId>
         <version>7.0.6-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jboss-server-migration-eap6.4</artifactId>
+    <artifactId>jboss-eap-server-migration-eap6.4</artifactId>
 
-    <name>JBoss Server Migration: EAP 6.4</name>
+    <name>JBoss EAP Server Migration: EAP 6.4</name>
 
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>jboss-server-migration-core</artifactId>
+            <artifactId>jboss-eap-server-migration-core</artifactId>
         </dependency>   
     </dependencies>   
 

@@ -26,11 +26,11 @@
     </parent>
 
     <groupId>org.jboss.migration</groupId>
-    <artifactId>jboss-server-migration-parent</artifactId>
+    <artifactId>jboss-eap-server-migration-parent</artifactId>
     <version>7.0.6-SNAPSHOT</version>
 
-    <name>JBoss Server Migration</name>
-    <description>A tool used for migrating a JBoss server.</description>
+    <name>JBoss EAP Server Migration</name>
+    <description>A tool used for migrating to a JBoss EAP server.</description>
 
     <packaging>pom</packaging>
 
@@ -199,67 +199,67 @@
 
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>jboss-server-migration-build</artifactId>
+                <artifactId>jboss-eap-server-migration-build</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>jboss-server-migration-core</artifactId>
+                <artifactId>jboss-eap-server-migration-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>jboss-server-migration-cli</artifactId>
+                <artifactId>jboss-eap-server-migration-cli</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>jboss-server-migration-eap6.4</artifactId>
+                <artifactId>jboss-eap-server-migration-eap6.4</artifactId>
                 <version>${project.version}</version>
             </dependency>
             
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>jboss-server-migration-eap6.4-to-eap7.0</artifactId>
+                <artifactId>jboss-eap-server-migration-eap6.4-to-eap7.0</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>jboss-server-migration-eap7.0</artifactId>
+                <artifactId>jboss-eap-server-migration-eap7.0</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>jboss-server-migration-wildfly8.2</artifactId>
+                <artifactId>jboss-eap-server-migration-wildfly8.2</artifactId>
                 <version>${project.version}</version>
             </dependency>
             
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>jboss-server-migration-wildfly8.2-to-eap7.0</artifactId>
+                <artifactId>jboss-eap-server-migration-wildfly8.2-to-eap7.0</artifactId>
                 <version>${project.version}</version>
             </dependency>
         
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>jboss-server-migration-wildfly9.0</artifactId>
+                <artifactId>jboss-eap-server-migration-wildfly9.0</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>jboss-server-migration-wildfly9.0-to-eap7.0</artifactId>
+                <artifactId>jboss-eap-server-migration-wildfly9.0-to-eap7.0</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>jboss-server-migration-wildfly10.0</artifactId>
+                <artifactId>jboss-eap-server-migration-wildfly10.0</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

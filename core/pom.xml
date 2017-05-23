@@ -22,13 +22,13 @@
 
     <parent>
         <groupId>org.jboss.migration</groupId>
-        <artifactId>jboss-server-migration-parent</artifactId>
+        <artifactId>jboss-eap-server-migration-parent</artifactId>
         <version>7.0.6-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jboss-server-migration-core</artifactId>
+    <artifactId>jboss-eap-server-migration-core</artifactId>
 
-    <name>JBoss Server Migration: Core</name>
+    <name>JBoss EAP Server Migration: Core</name>
 
     <dependencies>
 

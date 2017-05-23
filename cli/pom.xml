@@ -22,18 +22,18 @@
 
     <parent>
         <groupId>org.jboss.migration</groupId>
-        <artifactId>jboss-server-migration-parent</artifactId>
+        <artifactId>jboss-eap-server-migration-parent</artifactId>
         <version>7.0.6-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jboss-server-migration-cli</artifactId>
+    <artifactId>jboss-eap-server-migration-cli</artifactId>
 
-    <name>JBoss Server Migration: CLI</name>
+    <name>JBoss EAP Server Migration: CLI</name>
 
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>jboss-server-migration-core</artifactId>
+            <artifactId>jboss-eap-server-migration-core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.jboss.logging</groupId>
@@ -59,7 +59,7 @@
     </dependencies>
 
     <build>
-        <finalName>jboss-server-migration</finalName>
+        <finalName>jboss-eap-server-migration</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

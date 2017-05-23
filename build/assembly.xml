@@ -30,7 +30,7 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>jboss-server-migration</baseDirectory>
+  <baseDirectory>jboss-eap-server-migration</baseDirectory>
   <fileSets>
     <fileSet>
       <directory>${basedir}/src/main/resources</directory>
